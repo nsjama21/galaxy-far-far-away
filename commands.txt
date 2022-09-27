@@ -1,0 +1,79 @@
+Terminal Lab
+
+Part I: Set the Scene
+
+1. mkdir death_star
+2. cd death_star
+3. touch darth_vader.txt princess_leia.txt storm_tropper.txt
+4. cd ..
+5. mkdir tatooine
+6. cd tatooine
+7. touch luke.txt ben_kenobi.txt
+8.  cd ..
+9. cd tatooine/
+10. mkdir millenium_falcon
+11. cd millenium_falcon
+12. touch han_solo.txt chewbaca.txt
+
+Part II: -rename
+
+1. cd ..
+2. mv ben_kenobi.txt obi_wan.txt
+
+Part II: -copy
+
+1. cd death_star/
+2. cp storm_trooper.txt ../tatooine
+
+
+Part IV: Move
+
+1. cd tatooine/
+2. ls
+3. mv luke.txt millenium_falcon/
+4. mv obi_wan.txt millenium_falcon/
+5. cd millenium_falcon/
+6. ls
+7. cd ..
+8. mv millenium_falcon ..
+9. cd ..
+10. ls
+11. mv millenium_falcon death_star
+12. cd death_star
+13. ls
+14. mv princess_leia.txt millenium_falcon/
+15. cd millenium_falcon/
+16. ls
+
+Part V: Remove
+
+1. rm obi_wan.txt
+2. ls
+
+Part VI: all together
+
+1. cd ../..
+2. mkdir yavin_4
+3. mv millenium_falcon ../yavin_4
+4. cd yavin_4
+5. ls
+6. mkdir x_wing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
